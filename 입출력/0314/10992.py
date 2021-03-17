@@ -1,5 +1,3 @@
-# 별 찍기 - 17
-
 import sys
 
 n = int(sys.stdin.readline())
