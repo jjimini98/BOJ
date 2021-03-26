@@ -1,8 +1,11 @@
-n = int(input())
+import sys
+
+
+n = int(sys.stdin.readline())
 dic = {}
 
 for case in range(n):
-    tmp = int(input())
+    tmp = int(sys.stdin.readline())
     if tmp in dic:
         dic[tmp] += 1
     else:
