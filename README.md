@@ -1,4 +1,4 @@
-                                 # BOJ
+# BOJ
 Backjoon Online Judge 
 
 백준 150문제 풀이 (21.03.08~)                           
