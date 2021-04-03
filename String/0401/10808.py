@@ -1,18 +1,15 @@
 #알파벳 개수
-from collections import Counter
 import string
 
 
-
 sten = input()
-alpha = string.ascii_lowercase
-lis = []
+lis = [0 for _ in range(26)]
+alpha_dict = {idx : alpha for idx , alpha in enumerate(string.ascii_lowercase)}
+for y in alpha_dict.items():
+    for x in sten :
+        if x == y[1]:
+            lis[y[0]] +=1
 
-for a in alpha:
-    for s in sten :
-        if a == s:
-            lis.insert(alpha.find(a),sten.count(s))
-        else:
-            lis.insert(alpha.find(a),sten.count(s))
-print(lis)
-print(len(lis))
+
+for t in lis:
+    print(t, end=" ")
