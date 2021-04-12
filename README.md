@@ -1,7 +1,8 @@
 # BOJ
 Backjoon Online Judge 
 
-백준 150문제 풀이 (21.03.08~)                           
+백준 150문제 풀이 (21.03.08~)        
+💦시험기간이라서 잠시 쉬는중 (21.04.12 ~ 21.04.24)                                        
 매일 문제 풀고 커밋하기                                            
 화이티잉!                                                 
 [![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=jjimini98)](https://solved.ac/jjimini98)  
